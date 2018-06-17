@@ -20,7 +20,7 @@ html, body {
 
 body {
   /*background: #000;*/
-  font-size: 15px;
+  font-size: 30px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -197,21 +197,6 @@ svg {
     background-color: rgba(203, 198, 195, 0.8);
   }
 }
-.slide:nth-child(5) {
-  left: 0;
-}
-.slide:nth-child(5) .slide__bg {
-  left: 0;
-  /*background-image: url("images/slide1.jpg");*/
-}
-.slide:nth-child(5) .slide__overlay-path {
-  fill: #e99c7e;
-}
-@media (max-width: 991px) {
-  .slide:nth-child(5) .slide__text {
-    background-color: rgba(233, 156, 126, 0.8);
-  }
-}
 .slide__content {
   position: absolute;
   top: 0;
@@ -291,7 +276,7 @@ svg {
     text-decoration: none;
     color: white;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 2.3rem;
+  font-size: 4rem;
   perspective: 1000px;
 }
 @media (max-width: 991px) {
